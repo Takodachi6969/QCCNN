@@ -56,7 +56,7 @@ def load_data(size, classes):
             if 1 <= randint <= 8:
                 label = 'S'
                 mode = s[randint - 1]
-            if 10 <= randint <= 16:
+            if 9 <= randint <= 16:
                 label = 'T'
                 mode = t[randint - 8 - 1]
         else:
